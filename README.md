@@ -1,11 +1,11 @@
 # Capstone project Supervised Machine Learning on Appliance Energy Prediction
 Today's word usage of energy is increasing rapidly. Due to more usage of energy in some parts of the world, we are facing a lack of energy and it leads to environmental pollution. In some of the places, we are facing outrageous energy consumption in home appliances, so our main goal in this project is to analyse what the factors are affecting the increasing energy consumption of home appliances, how we can reduce the energy consumption of home appliances and predict energy consumption of appliances by using regression models.
 
-Problem statement:
+**Problem statement:**
 ________________________________________
 The data set is at 10 min for about 4.5 months. The house temperature and humidity conditions were monitored with a ZigBee wireless sensor network. Each wireless node transmitted the temperature and humidity conditions around 3.3 min. Then, the wireless data was averaged for 10 minutes periods. The energy data was logged every 10 minutes with m-bus energy meters. Weather from the nearest airport weather station (Chievres Airport, Belgium) was downloaded from a public data set from Reliable Prognosis (rp5.ru) and merged together with the experimental data sets using the date and time column. Two random variables have been included in the data set for testing the regression models and to filter out non-predictive attributes (parameters).
 
-Approach:
+**Approach:**
 
 •	First, we load data set into Panda’s frame and initialize all the library which are required for doing EDA.
 
@@ -23,7 +23,7 @@ Approach:
 
 •	With model explain ability technique for knowing which features is important
 
-Conclusion:         
+**Conclusion:**         
 
 •	Many columns in the dataset have not normally distributed and target column is also right skewed
 
