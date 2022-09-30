@@ -8,14 +8,24 @@ Prediction of the energy consumed by household appliances is a challenging resea
 ## **📖 Dataset information:**
 Below are the info that is available in given dataset-
 •	lights - Energy use of light fixtures in the house
+
+
 •	T1 - Temperature in kitchen area 
+
 •	RH_1 -  Humidity in kitchen area. 
+
 •	T2- Temperature in living room area.
+
 •	RH_2 - Humidity in living room area 
+
 •	T3 - Temperature in laundry room area
+
 •	RH_3  - Humidity in laundry room area 
+
 •	T4 - Temperature in office room 
+
 •	RH_4 - Humidity in office room 
+
 •	T5 - Temperature in bathroom 
 •	RH_5 - Humidity in bathroom 
 •	T6 - Temperature outside the building 
