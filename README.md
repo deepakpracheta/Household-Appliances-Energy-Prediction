@@ -95,14 +95,24 @@ The data set is at 10 min for about 4.5 months. The house temperature and humidi
 ## **📖 Conclusion:**         
 
 •	Many columns in the dataset have not normally distributed and target column is also right skewed
+
 •	Dataset has many outliers and no null values
-•	We have hours column is high correlation with dependent variable and there are lot features have lesser than 0.1 correlation with dependent variable and its non-linear dataset.
+
+•	We have hours column is high correlation with dependent variable and there are lot features have lesser than 0.1 correlation with dependent variable and its non-
+linear dataset.
+
 •	Energy consumption in month of march is high and low in Jan month and increase in temp leads to more energy consumption
+
 •	Decrease in Humidity leads increase in power consumption. Humidity is inversely proportional to dependent variable.
+
 •	Hour of the Day is the most important influencing parameter for Energy consumption
+
 •	High Electricity consumption of >140Wh is observed during evening hours 16:00 to 20:00. Weekends (Saturdays and Sundays) are observed to have high consumption of electricity. (> 25% than Weekdays)
+
 •	Lights are having very low importance as a feature
+
 •	Random forest is the best model its performance is good compare to others have high r2 on test
+
 •	Through model explain ability found which feature has high importance.
 
 
